@@ -103,7 +103,7 @@ button,
 input,
 select,
 textarea {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 body {
@@ -149,6 +149,7 @@ h6 {
 h1 {
 	font-size: 48px;
 	margin: 33px 0;
+	font-family: 'Dancing Script', cursive;
 }
 
 h2 {
@@ -781,6 +782,7 @@ img.wp-smiley,
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
+	padding: 10px;
 }
 
 .site-main {
@@ -813,6 +815,7 @@ img.wp-smiley,
 
 .site-header {
 	position: relative;
+	text-align: center;
 }
 
 .site-header .home-link {
@@ -824,6 +827,7 @@ img.wp-smiley,
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
+	
 }
 
 .site-header .site-title:hover {
@@ -836,10 +840,11 @@ img.wp-smiley,
 	line-height: 1;
 	margin: 0;
 	padding: 58px 0 10px;
+	font-family: 'Dancing Script', cursive;
 }
 
 .site-description {
-	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 24px "Open Sans", Helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -945,7 +950,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #f1e7f6;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -1038,7 +1043,7 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-title a:hover {
-	color: #ea9629;
+	color: #693b77;
 }
 
 
@@ -1053,11 +1058,11 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-meta a {
-	color: #bc360a;
+	color: #693b77;
 }
 
 .entry-meta a:hover {
-	color: #bc360a;
+	color: #000;
 }
 
 .entry-meta > span {
@@ -2542,8 +2547,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	background-color: #f1e7f6;
+	color: #000;
 	font-size: 14px;
 	text-align: center;
 }
@@ -2558,7 +2563,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background-color: #d6a9f0;
 	padding: 20px 0;
 }
 
@@ -2576,10 +2581,14 @@ footer.entry-meta {
 
 .site-footer .widget {
 	background: transparent;
-	color: #fff;
+	color: #000;
 	float: left;
 	margin-right: 20px;
 	width: 245px;
+}
+
+.site-footer .widget .widget-title{
+	font-style: normal;	
 }
 
 .sidebar .site-footer .widget {
@@ -2592,13 +2601,13 @@ footer.entry-meta {
 }
 
 .site-footer .widget a {
-	color: #e6402a;
+	color: #000;
 }
 
 .site-footer .widget-title,
 .site-footer .widget-title a,
 .site-footer .wp-caption-text {
-	color: #fff;
+	color: #6935ac;
 }
 
 .site-info {
