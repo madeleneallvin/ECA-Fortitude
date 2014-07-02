@@ -2055,7 +2055,8 @@ footer.entry-meta {
  */
 
 .page-header {
-	background-color: #e8e5ce;
+	/*background-color: #e8e5ce;*/
+	background-color: #fff;
 }
 
 .page-title {
