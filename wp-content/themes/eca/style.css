@@ -776,17 +776,19 @@ img.wp-smiley,
  */
 
 .site {
-	background-color: #fff;
+	background: url('images/backgroundPattern.png') repeat;
+	
 	border-left: 1px solid #f2f2f2;
 	border-right: 1px solid #f2f2f2;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
-	padding: 20px;
 }
 
 .site-main {
 	position: relative;
+	margin: 10px 200px;
+	background: #fff;
 }
 
 .site-main .sidebar-container {
