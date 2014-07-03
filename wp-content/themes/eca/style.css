@@ -961,10 +961,14 @@ ul.nav-menu .focus > ul,
 	margin:  16px;
 	border-radius: 0px;
 }
-.navbar .current_page_item, .navbar .page_item:hover{
+.navbar .current_menu_item,
+.navbar .current_page_item,
+ .navbar li:hover{
 	background: #dff2c2;	
 }
-.navbar .current_page_item a, .navbar .page_item:hover a{
+.navbar .current_menu_item a,
+.navbar .current_page_item a,
+ .navbar li:hover a{
 	color: #74a629;	
 }
 
@@ -973,7 +977,8 @@ ul.nav-menu .focus > ul,
 	margin: 0 auto;
 }
 .navbar li{
-	padding: 20px 20px;
+	padding: 0 20px;
+	margin: 0 5px;
 }
 
 
