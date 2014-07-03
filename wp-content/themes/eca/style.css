@@ -787,8 +787,7 @@ img.wp-smiley,
 
 .site-main {
 	position: relative;
-	margin: 10px 200px;
-	background: #fff;
+	
 }
 
 .site-main .sidebar-container {
@@ -802,6 +801,10 @@ img.wp-smiley,
 .site-main .sidebar-inner {
 	margin: 0 auto;
 	max-width: 1040px;
+}
+
+.site-content{
+	background: #fff;
 }
 
 
@@ -825,7 +828,7 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
+	min-height: 165px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
@@ -841,7 +844,7 @@ img.wp-smiley,
 	font-weight: bold;
 	line-height: 1;
 	margin: 0;
-	padding: 58px 0 10px;
+	padding: 40px 0 10px;
 	font-family: 'Dancing Script', cursive;
 }
 
@@ -876,7 +879,7 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: #000;
 	display: block;
 	font-size: 15px;
 	line-height: 1;
@@ -938,6 +941,7 @@ ul.nav-menu .focus > ul,
 	width: inherit;
 }
 
+
 .nav-menu .current_page_item > a,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
@@ -952,11 +956,26 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f1e7f6;
-	margin: 0 auto;
-	max-width: 1600px;
-	width: 100%;
+	background-color: #fff;
+	border: none;
+	margin:  16px;
+	border-radius: 0px;
 }
+.navbar .current_page_item, .navbar .page_item:hover{
+	background: #dff2c2;	
+}
+.navbar .current_page_item a, .navbar .page_item:hover a{
+	color: #74a629;	
+}
+
+.navbar ul{
+	padding: 0px;
+	margin: 0 auto;
+}
+.navbar li{
+	padding: 20px 20px;
+}
+
 
 .site-header .search-form {
 	position: absolute;
@@ -1889,11 +1908,11 @@ footer.entry-meta {
 }
 
 .navigation a {
-	color: #bc360a;
+	color: #172601;
 }
 
 .navigation a:hover {
-	color: #ea9629;
+	color: #74a629;
 	text-decoration: none;
 }
 
@@ -2286,7 +2305,7 @@ footer.entry-meta {
 
 /* Comment form */
 .comment-respond {
-	background-color: #f7f5e7;
+	background-color: #f2f2f2;
 	padding: 30px 0;
 }
 
@@ -2550,7 +2569,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #f1e7f6;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	color: #000;
 	font-size: 14px;
 	text-align: center;
@@ -2566,7 +2586,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: none;
+	background-color: #fff;
 	padding: 20px 0;
 }
 

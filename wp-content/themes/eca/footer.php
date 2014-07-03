@@ -8,8 +8,10 @@
 ?>
 
 		</div><!-- #main -->
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php get_sidebar( 'main' ); ?>
+		<footer id="colophon" class="site-footer row" role="contentinfo">
+			<div class="col-xs-12">
+				<?php get_sidebar( 'main' ); ?>
+			</div>
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 
