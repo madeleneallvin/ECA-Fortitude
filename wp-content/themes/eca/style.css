@@ -964,12 +964,12 @@ ul.nav-menu .focus > ul,
 .navbar .current_menu_item,
 .navbar .current_page_item,
  .navbar li:hover{
-	background: #dff2c2;	
+	background: #f3def9;	
 }
-.navbar .current_menu_item a,
-.navbar .current_page_item a,
- .navbar li:hover a{
-	color: #74a629;	
+.navbar .current_menu_item > a,
+.navbar .current_page_item > a,
+ .navbar li:hover > a{
+	color: #693b77 !important;	
 }
 
 .navbar ul{
@@ -1062,14 +1062,15 @@ ul.nav-menu .focus > ul,
 .entry-title {
 	font-weight: normal;
 	margin: 0 0 5px;
+	color: #6935ac;
 }
 
 .entry-title a {
-	color: #141412;
+	color: #6935ac;
 }
 
 .entry-title a:hover {
-	color: #693b77;
+	color: #6935ac;
 }
 
 
