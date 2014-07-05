@@ -13,7 +13,24 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area col-xs-12">
+	<?php
+  			if($post->post_parent)
+				$children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=0");
+  			else
+  				$children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=0");
+  			if ($children) { ?>
+  				<div class="col-xs-2">
+  				<div>
+  					<ul class="navbar-side">
+  						<?php echo $children; ?>
+  					</ul>
+  					</div>
+  				</div>
+  			<?php } ?>
+	
+
+	
+	<div id="primary" class="content-area <?php if($children) echo "col-xs-10"; else echo "col-xs-12"; ?>">
 		<div id="content" class="site-content" role="main">
 
 			<?php /* The loop */ ?>
